@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tins Project</title>
+    <title></title>
     <style>
         * {
             box-sizing: border-box;
@@ -11,54 +11,61 @@
             padding: 0;
         }
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
+            font-family: 'Inter', sans-serif;
+            background-color: #111213;
+            color: #04d9ff; /* Updated font color */
+            line-height: 1.4;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #111213;
+            color: #04d9ff; /* Updated font color */
             padding: 20px;
-            text-align: center;
+            text-align: left;
+        }
+        header h1 {
+            font-size: 18px;
+            margin-bottom: 10px; /* Add margin to separate from navigation */
         }
         nav {
-            background-color: #444;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
+            padding: 10px 20px; /* Added padding */
+            margin-top: -20px; /* Add margin to separate from header */
+            width: 100%;
+            text-align: left;
+            margin-right: 20px; /* Added margin to push to the right */
         }
         nav a {
-            color: #fff;
+            color: #04d9ff; /* Updated font color */
             text-decoration: none;
             margin: 0 10px;
             transition: color 0.3s ease-in-out;
         }
         nav a:hover {
-            color: #ff9900;
+            color: #111213;
         }
         section {
             padding: 20px;
         }
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #111213;
+            color: #04d9ff; /* Updated font color */
             padding: 10px 0;
             text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Tin Projects</h1>
-    <p>A crappy web design</p>
+    <h1>Welcome to Tin's website</h1>
 </header>
 
 <nav>
-    <a href="#">Home</a>
+    <a href="#">Projects</a>
     <a href="#">About</a>
     <a href="#">Contact</a>
 </nav>
@@ -69,7 +76,7 @@
 </section>
 
 <footer>
-    <p>&copy; 2024 Tin Project. All rights reserved.</p>
+    <p>&copy; 2023 Tin Project. All rights reserved.</p>
 </footer>
 
 </body>
